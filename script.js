@@ -1,6 +1,6 @@
 //your JS code here. If required.
 let select = document.getElementById("colorSelect");
-let btn =  document.querySelector("input[type=button]")
+let btn =  document.getElementById("abc");
 btn.addEventListener("click", ()=>{       
 	//select.children--> will give all the child elements of select element
     for (const child of select.children) {
